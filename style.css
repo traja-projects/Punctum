@@ -116,7 +116,7 @@ a:hover{color:var(--gold-light)}
   filter:blur(14px);
 }
 .device__img{
-  position:relative; z-index:1; width:100%; aspect-ratio:600/1303; border-radius:32px;
+  position:relative; z-index:1; width:100%; height:auto; aspect-ratio:600/1303; border-radius:32px;
   box-shadow:0 0 0 1px rgba(255,255,255,.07), 0 30px 70px rgba(0,0,0,.55);
   /* melt the bottom edge into the cosmos (the board runs off-screen) */
   -webkit-mask-image:linear-gradient(180deg,#000 80%,transparent 100%);
@@ -164,7 +164,7 @@ a:hover{color:var(--gold-light)}
 .lens h3{font-family:var(--serif); font-weight:400; font-size:21px; margin:0 0 6px; color:var(--ink)}
 .lens p{font-size:14px; color:var(--ink-dim); margin:0 0 22px}
 .lens__shot{
-  width:78%; margin:0 auto; aspect-ratio:600/1303; border-radius:20px 20px 0 0;
+  width:78%; height:auto; margin:0 auto; aspect-ratio:600/1303; border-radius:20px 20px 0 0;
   box-shadow:0 -2px 30px rgba(120,90,220,.18), 0 0 0 1px rgba(255,255,255,.06);
   -webkit-mask-image:linear-gradient(#000 72%, transparent 100%);
           mask-image:linear-gradient(#000 72%, transparent 100%);
@@ -229,7 +229,7 @@ a:hover{color:var(--gold-light)}
   .hero__grid{grid-template-columns:1fr; gap:36px; text-align:center}
   .hero__sub{margin-inline:auto}
   .hero__cta{justify-content:center}
-  .device{order:-1; width:min(260px,70vw)}
+  .device{width:min(240px,62vw)}
   .legend{justify-content:center}
   .cards{grid-template-columns:1fr; max-width:360px; margin-inline:auto}
   .values{grid-template-columns:1fr 1fr}
