@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support · Kontakt — Punctum</title>
+<meta name="description" content="Support für Punctum — Fragen, Hilfe und Kontakt.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500&family=Newsreader:opsz,wght@6..72,300;6..72,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="bar">
+  <a class="home" href="index.html">← Punctum</a>
+  <div class="toggle" role="group" aria-label="Sprache / Language">
+    <button id="b-de" aria-pressed="true" onclick="setLang('de')">Deutsch</button>
+    <button id="b-en" aria-pressed="false" onclick="setLang('en')">English</button>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="lang-de">
+    <h1>Support</h1>
+    <p class="lede">Eine Frage, ein Problem oder eine Idee? Schreib mir — ich antworte persönlich.</p>
+    <a class="mail" href="mailto:tran-bao-anh@outlook.de?subject=Punctum%20Support">tran-bao-anh@outlook.de</a>
+    <h2>Häufige Fragen</h2>
+    <p><strong>Wie lösche ich meine Daten?</strong><br>In der App: Einstellungen → „Von vorn beginnen“. Oder die App deinstallieren. Alles wird unwiderruflich lokal gelöscht.</p>
+    <p><strong>Gibt es ein Abo oder versteckte Kosten?</strong><br>Nein. Punctum ist ein einmaliger Kauf — kein Abo, kein Konto, keine In-App-Käufe.</p>
+    <p><strong>Neues Gerät — muss ich erneut zahlen?</strong><br>Nein. Lade die App mit derselben Apple-ID bzw. demselben Google-Konto kostenlos erneut.</p>
+    <p><strong>Werden meine Daten gespeichert?</strong><br>Nur lokal auf deinem Gerät. Kein Server, keine Cloud, kein Tracking. Details in der <a href="privacy.html">Datenschutzerklärung</a>.</p>
+    <p><strong>Welche Sprachen gibt es?</strong><br>Deutsch, Englisch, Spanisch und Französisch.</p>
+  </section>
+
+  <section class="lang-en" hidden>
+    <h1>Support</h1>
+    <p class="lede">A question, a problem, or an idea? Write to me — I reply personally.</p>
+    <a class="mail" href="mailto:tran-bao-anh@outlook.de?subject=Punctum%20Support">tran-bao-anh@outlook.de</a>
+    <h2>Frequently asked</h2>
+    <p><strong>How do I delete my data?</strong><br>In the app: Settings → “Start over”. Or uninstall the app. Everything is irrevocably deleted locally.</p>
+    <p><strong>Is there a subscription or hidden cost?</strong><br>No. Punctum is a one-time purchase — no subscription, no account, no in-app purchases.</p>
+    <p><strong>New device — do I pay again?</strong><br>No. Re-download for free with the same Apple ID or Google account.</p>
+    <p><strong>Is my data stored anywhere?</strong><br>Only locally on your device. No server, no cloud, no tracking. Details in the <a href="privacy.html">privacy policy</a>.</p>
+    <p><strong>Which languages are supported?</strong><br>German, English, Spanish, and French.</p>
+  </section>
+</main>
+
+<footer class="legal-footer">
+  <nav>
+    <a href="privacy.html"><span class="lang-de">Datenschutz</span><span class="lang-en" hidden>Privacy</span></a>
+    <a href="terms.html"><span class="lang-de">Nutzungsbedingungen</span><span class="lang-en" hidden>Terms</span></a>
+    <a href="imprint.html"><span class="lang-de">Impressum</span><span class="lang-en" hidden>Imprint</span></a>
+    <a href="support.html">Support</a>
+  </nav>
+  <p>© 2026 Bao Anh Tran</p>
+</footer>
+<script src="site.js"></script>
+</body>
+</html>
